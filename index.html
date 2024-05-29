@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: small;
+        }
+
+        .bg-image {
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            /* Full height */
+            color: white;
+            font-size: larger;
+        }
+
+        .bg-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(98, 198, 248, 0);
+            /* Overlay color */
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            /* Padding for left alignment */
+        }
+
+        .content {
+            max-width: 800px;
+            /* Max width for content */
+        }
+
+        .ckecil {
+            max-width: 400px;
+        }
+
+        .btn-custom {
+            background-color: #E86446;
+            /* Custom background color */
+            color: white;
+            /* Custom text color */
+            border: none;
+            /* Remove border */
+        }
+
+        .btn-custom:hover {
+            background-color: #cc5238;
+            /* Darker shade on hover */
+        }
+
+        .btn-custom:focus,
+        .btn-custom:active {
+            background-color: #b44730;
+            /* Even darker shade on focus/active */
+            box-shadow: none;
+            /* Remove box-shadow */
+        }
+
+        .testimonial-card .card-up {
+            height: 120px;
+            overflow: hidden;
+            border-top-left-radius: 0.25rem;
+            border-top-right-radius: 0.25rem;
+        }
+
+        .testimonial-card .avatar {
+            width: 110px;
+            margin-top: -60px;
+            overflow: hidden;
+            border: 3px solid #fff;
+            border-radius: 50%;
+        }
+    </style>
+    <title>Aqu Copy</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/logo.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="assets/aqu.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">testimoni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Saran</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1"><img src="assets/kaca.png" alt=""></span>
+                        <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                            aria-describedby="basic-addon1">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- home -->
+    <div class="bg-image" style="background-image: url('assets/banner.png');">
+        <div class="bg-overlay">
+            <div class="content text-black ms-4">
+                <h2 class="mb-4 ms-2"><b>AQU, Solusi untuk kebutuhan kantormu</b> </h2>
+                <p class="mb-4 ms-2 ckecil">Jasa fotokopi profesional dan pengadaan
+                    peralatan alat tulis kantor</p>
+                <a href="#" class="btn btn-custom ms-2">Layanan kami <span class="ms-1"><img src="assets/Vector.png"
+                            alt="" height="20px"></span></a>
+            </div>
+        </div>
+    </div>
+    <!-- end home -->
+    <!-- layanan -->
+    <div>
+        <center class="mt-5 container">
+            <h2 class="mb-5"><b>Layanan Kami</b></h2>
+            <div class="row">
+                <div class="col-12 col-lg-6 mb-5">
+                    <div class="card">
+                        <img src="assets/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title mb-3"><b>Pengadaan Alat Tulis Kantor</b></h3>
+                            <a href="#" class="btn btn-custom">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="card">
+                        <img src="assets/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title mb-3"><b>Jasa Fotokopi</b></h3>
+                            <a href="#" class="btn btn-custom">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </div>
+    <!-- end layanan -->
+    <!-- testimoni -->
+    <div style="background-color: #B4DFE3;" class="pb-5">
+        <section class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10 col-xl-8 text-center">
+                    <h2 class="mb-5 mt-5"><b>Testimonial</b></h2>
+                </div>
+            </div>
+
+            <div class="row text-center d-flex align-items-stretch">
+                <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                    <div class="card testimonial-card">
+                        <div class="card-up" style="background-color: #9d789b;"></div>
+                        <div class="avatar mx-auto bg-white">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                class="rounded-circle img-fluid" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="mb-4">Maria Smantha</h4>
+                            <hr />
+                            <p class="dark-grey-text mt-4">
+                                <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet eos adipisci,
+                                consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                    <div class="card testimonial-card">
+                        <div class="card-up" style="background-color: #7a81a8;"></div>
+                        <div class="avatar mx-auto bg-white">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                                class="rounded-circle img-fluid" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="mb-4">Lisa Cudrow</h4>
+                            <hr />
+                            <p class="dark-grey-text mt-4">
+                                <i class="fas fa-quote-left pe-2"></i>Neque cupiditate assumenda in maiores
+                                repudi mollitia architecto.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-0 d-flex align-items-stretch">
+                    <div class="card testimonial-card">
+                        <div class="card-up" style="background-color: #6d5b98;"></div>
+                        <div class="avatar mx-auto bg-white">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                                class="rounded-circle img-fluid" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="mb-4">John Smith</h4>
+                            <hr />
+                            <p class="dark-grey-text mt-4">
+                                <i class="fas fa-quote-left pe-2"></i>Delectus impedit saepe officiis ab
+                                aliquam repellat rem unde ducimus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- end testimoni -->
+    <!-- visi -->
+    <div style="background-color: #CBE8EB;">
+        <center class="container pt-5 pb-5">
+            <h2 class="mb-5"><b>Layanan Kami</b></h2>
+            <h3 class="mb-5 mt-5"><b>visi</b></h3>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia distinctio beatae assumenda a sapiente
+                magni
+                quod eum minima itaque, dolore aspernatur quidem culpa aut doloribus exercitationem obcaecati modi,
+                sequi
+                vitae.</h4>
+            <h3 class="mb-5 mt-5"><b>Misi</b></h3>
+            <h4 class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus hic commodi
+                dolorem totam
+                adipisci repellat dolor eveniet, optio illum, odio saepe vitae tempora ut eius, aliquid recusandae alias
+                in.
+            </h4>
+            <div class="mt-5">
+                <h2 class="mb-5"><b>Partner Kami</b></h2>
+                <span><img src="assets/amikom.png" alt=""></span>
+                <span><img src="assets/amikom.png" alt=""></span>
+            </div>
+        </center>
+    </div>
+    <!-- end visi -->
+    <!-- kritik -->
+    <div class="container p-5">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputnama1" class="form-label">nama</label>
+                <input type="text" class="form-control" id="exampleInputnama1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label class="form-check-label" for="exampleCheck1">Kritik & saran</label>
+                <textarea name="" id="" class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom">Submit</button>
+        </form>
+    </div>
+    <!-- end kriti -->
+    <!-- footer -->
+    <div style="background-color: #E7E7E7;" class="pt-2 pb-2">
+    <center>
+        <h6><b>AQUCOPY CENTER@2024</b></h6>
+    </center>
+    </div>
+    <!-- end footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
