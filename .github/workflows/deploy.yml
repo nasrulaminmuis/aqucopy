@@ -18,7 +18,8 @@ jobs:
       with:
         host: ${{ secrets.VPS_HOST }}
         username: ${{ secrets.VPS_USER }}
-        key: ${{ secrets.VPS_KEY }}
+        password: ${{ secrets.VPS_PW }}
+        port: 22
         script: |
           rm -rf /usr/share/nginx/html/*
 
@@ -27,6 +28,7 @@ jobs:
       with:
         host: ${{ secrets.VPS_HOST }}
         username: ${{ secrets.VPS_USER }}
-        key: ${{ secrets.VPS_KEY }}
+        password: ${{ secrets.VPS_PW }}
+        port: 22
         source: "."
         target: "/usr/share/nginx/html/" 
